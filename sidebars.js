@@ -30,10 +30,19 @@ const sidebars = {
       type: 'category',
       label: 'For Developers',
       collapsible: false,
-      items: ['For Developers/manage-docs-versions',
-        'For Developers/translate-your-site'
-        ,'For Developers/translate-your-site copy', 
-        'For Developers/translate-your-site copy 2'],
+      items: [
+        {
+          type: 'category',
+          label: 'Why to contribute?',
+          items: [
+            'for-developers/why-to-contribute/incentives',
+            'for-developers/why-to-contribute/purpose',
+           ]
+        },
+        'for-developers/develop-package',
+        'for-developers/deploy-package', 
+        'for-developers/api-reference',
+      ],
     },
   ],
    
