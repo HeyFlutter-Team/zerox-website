@@ -1,4 +1,3 @@
-// Create a new file: src/components/ProtectedRoute.js
 import React from 'react';
 import { useAuth } from './AuthContext';
 import styles from './ProtectedRoute.module.css';

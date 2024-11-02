@@ -31,14 +31,7 @@ const sidebars = {
       label: 'For Developers',
       collapsible: false,
       items: [
-        {
-          type: 'category',
-          label: 'Why to contribute?',
-          items: [
-            'for-developers/why-to-contribute/incentives',
-            'for-developers/why-to-contribute/purpose',
-           ]
-        },
+        'for-developers/why-to-contribute',
         'for-developers/develop-package',
         'for-developers/deploy-package', 
         'for-developers/api-reference',
