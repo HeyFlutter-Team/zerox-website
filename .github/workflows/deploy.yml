@@ -3,7 +3,7 @@ name: Deploy Docusaurus
 on:
   push:
     branches:
-      - master  # Trigger deployment on push to the main branch
+      - master  # Trigger deployment on push to the master branch
 
 jobs:
   deploy:
@@ -18,20 +18,43 @@ jobs:
           git config --global user.email "rahmanrezaie60@gmail.com"
           git config --global user.name "Rahman"
 
+      - name: Add SSH key for deployment
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          echo "${{ secrets.GH_PAGES_DEPLOY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          cat <<EOT >> ~/.ssh/config
+          Host github.com
+            HostName github.com
+            IdentityFile ~/.ssh/id_rsa
+          EOT
 
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '18'
 
+      - name: Cache Yarn
+        uses: actions/cache@v2
+        with:
+          path: ~/.yarn/cache
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile
 
       - name: Build Docusaurus
         run: yarn build
 
       - name: Deploy to GitHub Pages
         env:
-          GIT_USER: ${{ secrets.GIT_USER }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn deploy --access-token $GITHUB_TOKEN
+          GIT_USER: git
+          USE_SSH: true
+          CURRENT_BRANCH: master
+          DEPLOYMENT_BRANCH: gh-pages  # Target deployment branch
+        run: yarn deploy
