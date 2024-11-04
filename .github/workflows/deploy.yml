@@ -25,5 +25,7 @@ jobs:
         run: yarn build
 
       - name: Deploy to GitHub Pages
-        run: |
-          GIT_USER=HeyFlutterHQ GIT_PASS=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 yarn deploy
+        env:
+          GIT_USER: ${{ secrets.GIT_USER }}
+          GIT_PASS: ${{ secrets.GIT_PASS }}
+        run: GIT_USER=$GIT_USER GIT_PASS=$GIT_PASS yarn deploy
