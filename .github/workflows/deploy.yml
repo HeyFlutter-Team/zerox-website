@@ -1,0 +1,29 @@
+name: Deploy Docusaurus
+
+on:
+  push:
+    branches:
+      - master  # Trigger deployment on push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build Docusaurus
+        run: yarn build
+
+      - name: Deploy to GitHub Pages
+        run: |
+          GIT_USER=HeyFlutterHQ GIT_PASS=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 yarn deploy
