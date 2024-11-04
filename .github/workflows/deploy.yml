@@ -13,6 +13,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set Git identity
+        run: |
+          git config --global user.email "rahmanrezaie60@gmail.com"
+          git config --global user.name "Rahman"
+
+
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
@@ -27,5 +33,5 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GIT_USER: ${{ secrets.GIT_USER }}
-          GIT_PASS: ${{ secrets.GIT_PASS }}
-        run: GIT_USER=$GIT_USER GIT_PASS=$GIT_PASS yarn deploy
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: yarn deploy --access-token $GITHUB_TOKEN
