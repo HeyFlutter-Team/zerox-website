@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Docusaurus v2 requires Node.js >= 14.18
+          node-version: '18'  # Docusaurus v2 requires Node.js >= 14.18
 
       - name: Install dependencies
         run: npm ci  # Ensures a clean install based on package-lock.json
