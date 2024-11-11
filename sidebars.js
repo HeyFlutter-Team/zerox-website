@@ -22,6 +22,12 @@ const sidebars = {
     'intro',
     {
       type: 'category',
+      label: 'Introduction',
+      collapsible: false,
+      items: ['introduction/why_zerox','introduction/getting_started', 'introduction/quick_start', 'introduction/faqs' ],
+    },
+    {
+      type: 'category',
       label: 'Packages',
       collapsible: false,
       items: ['packages/integrate-package','packages/rollback-package' ],
