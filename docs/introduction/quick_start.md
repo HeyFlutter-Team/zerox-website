@@ -19,26 +19,26 @@ After installing ZeroX on your system, follow these steps to get started:
 
 1. **Create an Account:** To get started, simply sign up using one of three easy options: your email address, Google Sign-In, or Apple Sign-In.
 
-![Locale Dropdown](./img/sample.png)
+![Locale Dropdown](./img/sample-gif.gif)
 
 2. **Search for a Flutter Package:** After signing up, you’ll be directed to the landing page. From there, you can use the search feature to find the specific Flutter package you want to integrate into your project. Once you find the desired package in the search results, simply select it to proceed.
 
-![Locale Dropdown](./img/sample.png)
+![Locale Dropdown](./img/sample-gif.gif)
 
 3. **Select Your Flutter Project:** Choose the Flutter project in which you want to add the selected package.
 
-![Locale Dropdown](./img/sample.png)
+![Locale Dropdown](./img/sample-gif.gif)
 
 4. **Select Your Device:** Specify the device on which you want to test the package integration. This step ensures that the results will be displayed correctly after installation.
 
-![Locale Dropdown](./img/sample.png)
+![Locale Dropdown](./img/sample-gif.gif)
 
 5. **Check Pre-requirements:** If the package has any pre-requirements, you will be prompted to address them before proceeding.
 
-![Locale Dropdown](./img/sample.png)
+![Locale Dropdown](./img/sample-gif.gif)
 
 6. **Generate the Package:** Click the **Generate** button. From this point, ZeroX will handle everything for you. We will add the selected package to your Flutter project, generate the necessary code, and integrate it seamlessly.
 
-![Locale Dropdown](./img/sample.png)
+![Locale Dropdown](./img/sample-gif.gif)
 
 Once your app runs, you’ll be able to see the results of the integrated package in action!
