@@ -2,46 +2,119 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Overview
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<div style={{ position : 'relative', paddingBottom : '56.25%', height : '0' }}><iframe style={{ position : 'absolute', top : '0', left : '0', width : '100%', height : '100%' }} width="560" height="315" src="https://www.youtube-nocookie.com/embed/F7WKovEFdnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-## Getting Started
+### Get Started
 
-Get started by **creating a new site**.
+<div class="container">
+  <div class="row">
+    <!-- First Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/introduction/why_zerox" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Why ZeroX?</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn about why should we use ZeroX</p>
+        </div>
+      </a>
+    </div>
+    <!-- Second Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/introduction/getting_started" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Get Started with ZeroX</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn how to get started with ZeroX</p>
+        </div>
+      </a>
+    </div>
+      <!-- Third Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/packages/rollback-package" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Quickstart</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn how to use ZeroX</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Start with Packages
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<div class="container">
+  <div class="row">
+    <!-- First Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/packages/integrate-package" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Integrate Package</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn about how to integrate packages</p>
+        </div>
+      </a>
+    </div>
+    <!-- Second Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/packages/rollback-package" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Rollback Package</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn how to rollback packages</p>
+        </div>
+      </a>
+    </div>
+      <!-- Third Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/for-developers/why-to-contribute" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Why to contribute?</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn why should you contribute with ZeroX</p>
+        </div>
+      </a>
+    </div>
+    <!-- Forth Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/for-developers/develop-package" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Develop Package</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn about how to develop and add your own package in ZeroX</p>
+        </div>
+      </a>
+    </div>
+    <!-- Fifth Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/packages/rollback-package" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>Deploy Package</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn how to deploy your Package inside the ZeroX</p>
+        </div>
+      </a>
+    </div>
+      <!-- sixth Box -->
+    <div class="col col--4">
+      <a href="/zerox-website/docs/for-developers/api-reference" class="card shadow--md margin-bottom--lg">
+        <div class="card__header">
+          <h3>API Reference</h3>
+        </div>
+        <div class="card__body">
+          <p>Learn how to integrate any package from ZeroX inside your platform with API</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

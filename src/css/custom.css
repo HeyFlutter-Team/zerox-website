@@ -28,3 +28,37 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.card {
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: white;
+  padding: 1rem;
+  width: 300px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  display: flex; /* Center content */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden; /* Avoid content overflow */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* .card__header h3 {
+  margin: 0;
+  color: #2d6cdf;
+  font-size: 1.5rem;
+} */
+
+.card__body p {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+}

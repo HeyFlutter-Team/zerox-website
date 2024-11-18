@@ -49,11 +49,11 @@ Getting started is simple and flexible, with three convenient ways to create you
     With all this information at your fingertips, you can confidently proceed to integrate the package into your project and enhance its functionality.
 
 
-    ![Locale Dropdown](./img/sample-gif.gif)
+    ![Sample Image](./img/sample-gif.gif)
 
 3. **Select Your Flutter Project:** After selecting the package, the next step is to choose the specific Flutter project where you want to integrate it. Ensure that the project is open and properly set up, so you can smoothly add the package and start using it in your project.
 
-    ![Locale Dropdown](./img/sample-gif.gif)
+    ![Sample Image](./img/sample-gif.gif)
 
 4. **Select Your Device:** Choose the device or platform on which you want to test the package integration. Depending on your project, you can select from various options such as:
 
@@ -64,15 +64,15 @@ Getting started is simple and flexible, with three convenient ways to create you
 
     This step ensures that the package is tested in the correct environment, allowing you to verify its functionality and compatibility across different platforms.
 
-    ![Locale Dropdown](./img/sample-gif.gif)
+    ![Sample Image](./img/sample-gif.gif)
 
 5. **Check Pre-requirements:** Before implementing the package, you may be asked to provide some pre-requirements. For example, if you choose to implement an **Authentication** package, we will ask for details such as the type of information you want on the Sign-Up and Sign-In pages. These details help ensure the package is properly integrated and tailored to your project’s needs. If there are any other specific requirements for the package, you’ll be prompted to address them before proceeding.
 
-    ![Locale Dropdown](./img/sample-gif.gif)
+    ![Sample Image](./img/sample-gif.gif)
 
 6. **Generate the Package:** Once you’ve provided the necessary pre-requirement details, simply click the **Generate** button. From this point onward, ZeroX takes care of everything for you. We’ll add the selected package to your Flutter project by updating the `pubspec.yaml` file, generate the required code using AI, and then integrate it into your project seamlessly.
 
     After we run the project, you’ll see that the package is already integrated, and everything works as expected—no additional steps required on your end.
 
-    ![Locale Dropdown](./img/sample-gif.gif)
+    ![Sample Image](./img/sample-gif.gif)
 

@@ -16,6 +16,7 @@ ZeroX simplifies the process of adding Flutter packages to your project. To get 
 Watch this video to see how easily ZeroX lets you integrate any package into your Flutter project with just one click.
 
 <div style={{ position : 'relative', paddingBottom : '56.25%', height : '0' }}><iframe style={{ position : 'absolute', top : '0', left : '0', width : '100%', height : '100%' }} width="560" height="315" src="https://www.youtube-nocookie.com/embed/F7WKovEFdnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 ---
 
 ### Step-by-Step Guide 
