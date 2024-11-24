@@ -17,14 +17,13 @@ Watch this video to see how easily ZeroX lets you integrate any package into you
 
 After installing ZeroX on your system, follow these steps to get started:
 
-1. **Create an Account:** 
-Getting started is simple and flexible, with three convenient ways to create your account:  
+1. **Create an Account:** Getting started with ZeroX is easy and flexible. You can choose from three simple methods to create your account:
 
-    - **Email Sign-Up:** Create an account using your email address by entering your details and setting up a secure password.  
+    - **Sign Up with Email:** Sign up by providing your email address, name, and a secure password. Once your email is verified, you'll be all set to start using the platform!
 
-    - **Google Sign-In:** Log in quickly using your Google account for a seamless and password-free experience. 
+    - **Log in with Google:** Sign in quickly using your Google credentials, making it easy to access your account without the hassle of remembering an extra password.
 
-    - **Apple Sign-In:** Sign in securely and privately using your Apple ID for a streamlined experience.  
+    - **Sign in with Apple:** Sign in with your Apple ID for a quick, secure, and privacy-focused experience, keeping your personal information protected. 
 
     Choose the option that works best for you and start exploring ZeroX effortlessly!
 
@@ -32,47 +31,52 @@ Getting started is simple and flexible, with three convenient ways to create you
 
 2. **Search for a Flutter Package:** 
 
-    - After successfully signing up, you’ll be redirected to the landing page, which serves as your central hub for exploring and managing Flutter packages. At the top of the page, you’ll find a powerful search feature designed to help you quickly locate the specific Flutter package you need for your project.
+    - After signing up, you'll be directed to the main page, where you can easily explore and manage Flutter packages. At the top, you'll find a simple search bar that lets you quickly find the exact package you need for your project, making the process faster and more efficient:
 
-    - Simply type the name of the package or relevant keywords into the search bar. The system will fetch results directly from the [pub.dev](https://pub.dev) website, displaying a comprehensive list that includes: Package Name, Descriptions, and Ratings 
+    - Simply type the package name or relevant keywords into the search bar, and the system will fetch results directly from pub.dev, showing a list of packages with their names, descriptions, and ratings, ensuring you have the most accurate and up-to-date information to choose the best package for your project.
 
-        This ensures you have access to the most reliable and up-to-date information, helping you identify the best match for your project requirements.
 
-    - Once you spot the package you’re looking for, click on it to access a comprehensive set of details. This includes:  
+    - Once you find the package you want, click on it to see a detailed overview, including:
 
-        - **Usage Instructions:** Step-by-step guidance on how to implement the package in your project.  
+        - **Usage Instructions:** Clear, step-by-step instructions on how to add the package to your project.
+        - **Platform Compatibility:** Details on which platforms (iOS, Android, web, etc.) the package works with.
+        - **Community Ratings and Reviews:** Feedback from other developers to help you assess the package's reliability and performance.
 
-        - **Platform Compatibility:** Information on which platforms (iOS, Android, web, etc.) the package supports.  
-
-        - **Community Ratings and Reviews:** Insights from other developers to help assess reliability and performance.  
-
-    With all this information at your fingertips, you can confidently proceed to integrate the package into your project and enhance its functionality.
+    With all this information, you’ll be ready to confidently integrate the package into your project and improve its functionality.
 
 
     ![Sample Image](./img/sample-gif.gif)
 
-3. **Select Your Flutter Project:** After selecting the package, the next step is to choose the specific Flutter project where you want to integrate it. Ensure that the project is open and properly set up, so you can smoothly add the package and start using it in your project.
+3. **Select Your Flutter Project:** Choose the best way to select your Flutter project and integrate the package easily:
+    - **Drag and Drop:** Simply drag and drop the project folder into the upload area.
+    - **Choose Folder:** Click **Choose Folder** to manually browse your system and select the project folder.
+    - **Use Recent Projects:** Quickly access previously opened projects by selecting one from the **Recent Projects** list.
+    - **Import from an IDE:** Easily import your projects directly from your development environment. To select your preferred IDE—whether it's **VS Code**, **Android Studio**, or **IntelliJ**—simply click the settings icon for quick setup.
+
+    **Note**: Ensure your selected project is properly configured before adding the package to avoid any issues during the integration process.
 
     ![Sample Image](./img/sample-gif.gif)
 
-4. **Select Your Device:** Choose the device or platform on which you want to test the package integration. Depending on your project, you can select from various options such as:
+4. **Select Your Device:** Select the device or platform where you'd like to test the package integration. Based on your project needs, you can choose from the following options:
 
-    - **Browser**: Test the integration directly in a web environment.
-    - **Windows**: Choose this option for testing on a Windows desktop application.
-    - **Real Devices**: Select a physical device (iOS or Android) to test the integration on real hardware.
-    - **Emulator/Simulator**: Opt for an emulator or simulator if you want to test on a virtual device for faster development and debugging.
+    - **Browser**: Test the package in a live web environment using popular browsers like Chrome, Safari, Edge, and more.
+    - **Windows**: Select this option to test the package integration on a Windows desktop application, ensuring compatibility and functionality on the platform.
+    - **macOS**: If you're on macOS, select this option to test the package on a macOS desktop application.
+    - **Linux**: For Linux users, choose this option to test the integration on a Linux desktop applicatio
+    - **Real Devices**: Select a physical iOS or Android device to test the package on a real device.
+    - **Emulator/Simulator**: Select an emulator or simulator to test the package on a virtual device, providing a faster and more efficient way to test and debug.
 
-    This step ensures that the package is tested in the correct environment, allowing you to verify its functionality and compatibility across different platforms.
-
-    ![Sample Image](./img/sample-gif.gif)
-
-5. **Check Pre-requirements:** Before implementing the package, you may be asked to provide some pre-requirements. For example, if you choose to implement an **Authentication** package, we will ask for details such as the type of information you want on the Sign-Up and Sign-In pages. These details help ensure the package is properly integrated and tailored to your project’s needs. If there are any other specific requirements for the package, you’ll be prompted to address them before proceeding.
+    This step ensures the package is tested in the right environment, helping you confirm its functionality and compatibility across various platforms.
 
     ![Sample Image](./img/sample-gif.gif)
 
-6. **Generate the Package:** Once you’ve provided the necessary pre-requirement details, simply click the **Generate** button. From this point onward, ZeroX takes care of everything for you. We’ll add the selected package to your Flutter project by updating the `pubspec.yaml` file, generate the required code using AI, and then integrate it into your project seamlessly.
+5. **Check Pre-requirements:** Before implementing any package, you might be asked to provide some necessary details. For example, if you’re adding an **Authentication** package, we’ll need to know what fields you want on the Sign-Up and Sign-In pages, such as name, email, password, and any other details you need from users. This helps make sure the package fits your project correctly. If there are any other specific details required for the package, you’ll be asked to provide them before moving forward."
 
-    After we run the project, you’ll see that the package is already integrated, and everything works as expected—no additional steps required on your end.
+    ![Sample Image](./img/sample-gif.gif)
+
+6. **Generate the Package:** Once you've entered all the required details, simply click the **Generate** button. From that moment, ZeroX takes care of the rest. We'll automatically add the package to your Flutter project, update the `pubspec.yaml` file, generate the necessary code with AI, and integrate it seamlessly into your project.
+
+    When you run your project, the package will already be integrated and fully functional—no additional steps are needed from your side.
 
     ![Sample Image](./img/sample-gif.gif)
 
