@@ -5,24 +5,81 @@ sidebar_position: 1
 # Integrate Package
 
 
-## Search Package
+#### 1. **Launch ZeroX**
 
-Begin by searching for the desired package in the package repository. This ensures you’re using the most up-to-date version available and that it meets your project requirements.
+Open the ZeroX application and log in using your credentials. Once logged in, you’ll be directed to the **Dashboard**.
 
-## Generate Package
-After selecting the package, follow these steps to integrate it into your Flutter project:
-   
-   - **How to Integrate a Package into a Flutter Project**  
-     Learn the step-by-step process of adding a package to your Flutter project, ensuring compatibility and functionality with your existing code.
+----------
 
-   - **How to Add Multiple Packages into a Flutter Project**  
-     Discover best practices for integrating multiple packages seamlessly into a single project, avoiding conflicts and optimizing performance.
+#### 2. **Search for a Package**
 
-### Packages That Do Not Exist
-   If you cannot find a required package, you have two options:
+1.  Navigate to the **Search Bar** at the top of the Dashboard.
+2.  Enter the package name or relevant keywords.
+3.  Review the search results, which display:
+    -   **Package Name**
+    -   **Description**
+    -   **Community Ratings and Reviews**
+4.  Click on the desired package to view its details.
 
-   - **Request Package Integration**  
-     Submit a request to have the necessary package integrated into the repository. This can expedite the availability of new packages for your project needs.
+![alt text](image-1.png)
 
-   - **Develop Package on Your Own**  
-     If immediate integration is necessary, you can develop the package independently [here](https://heyflutter.com).
+----------
+
+#### 3. **Review Package Details**
+
+Once you’ve selected a package, review the following information:
+
+-   **Usage Instructions**: Step-by-step guide on using the package.
+-   **Platform Compatibility**: Supported platforms (iOS, Android, Web, etc.).
+-   **Additional Dependencies**: Check for any required dependencies.
+
+![alt text](image-2.png)
+
+----------
+
+#### 4. **Select Your Flutter Project**
+
+1. Click the **Select Project** button.
+2. Choose the active Flutter project where the package will be integrated.
+3. Ensure the project is open and properly configured in your IDE (e.g., VS Code, Android Studio).
+4. Select the platform or device for testing the integration:
+	-  **iOS/Android Real Devices**
+	-  **Emulator/Simulator**
+
+![alt text](image-4.png)
+
+----------
+
+#### 6. **Provide Pre-requirements (If Applicable)**
+
+Certain packages may require additional configuration before integration. Example:
+
+-   For an **Authentication Package**, provide details for Sign-Up/Sign-In forms (e.g., fields like email, password).
+
+1.  Enter the requested information in the provided fields.
+2.  Click **Next** to proceed.
+
+![alt text](image-2.png)
+
+----------
+
+#### 7. **Generate and Integrate the Package**
+
+1.  Click the **Generate** button to begin the integration.
+2.  ZeroX will:
+    -   Automatically update the `pubspec.yaml` file.
+    -   Fetch and install the package from **pub.dev**.
+    -   Generate the necessary code using AI.
+3.  A confirmation message will appear once the process is complete:  
+    _"Package successfully integrated into your project!"_
+
+![alt text](image-6.png)
+
+----------
+
+### Testing the Integration
+
+#### **Run the Project**
+
+-   Open your IDE and run the project using the `flutter run` command or through the IDE’s run options.
+-   Verify that the package is working as expected in the selected environment.
