@@ -7,53 +7,49 @@ sidebar_position: 4
 Below, you’ll find answers to the most frequently asked questions about ZeroX. These questions cover common topics raised by our users, including installation, features, pricing, and support options. If you have additional questions, feel free to reach out to our support team.
 
 <details>
-<summary><b>Is ZeroX free?</b></summary>
+<summary><b>What is ZeroX?</b></summary>
 
-Yes, ZeroX offers a free version with access to core features suitable for personal use and small projects. The free version provides essential tools and functionalities without any cost. 
-
-For advanced features, such as premium plugins, higher storage options, and dedicated support, we offer paid plans that cater to professional and enterprise needs. You can explore our pricing page for details on available plans and find the one that best fits your requirements.
+ZeroX is a desktop app that helps developers easily add Flutter packages to their projects with just one click. It works on Windows, macOS, and Linux, automating the integration, code generation, and rollback processes to make Flutter development faster and simpler.
 </details>
 
 <details>
-<summary><b>How do I install ZeroX on my Windows system?</b></summary>
+<summary><b>Which platforms are supported by ZeroX?</b></summary>
 
-To install ZeroX on your Windows system:
-- Download the application from the provided link.
-- Open the downloaded setup file.
-- Follow the on-screen instructions to complete the installation in your preferred directory.
-- Once installation is complete, ZeroX will be ready for use.
+ZeroX works on Windows, macOS, and Linux, so developers can use it on any of these systems.
 </details>
 
 <details>
-<summary><b>How do I install ZeroX on my Windows system?</b></summary>
+<summary><b>How does ZeroX make Flutter package integration easier?</b></summary>
 
-To install ZeroX on your Windows system:
-- Download the application from the provided link.
-- Open the downloaded setup file.
-- Follow the on-screen instructions to complete the installation in your preferred directory.
-- Once installation is complete, ZeroX will be ready for use.
+ZeroX lets you easily search for and find any Flutter package available on pub.dev. Once you've selected a package, it automatically adds it to your project and generates the necessary code, eliminating the need for manual integration and configuration.
 </details>
 
 <details>
-<summary><b>How do I install ZeroX on my Linux system?</b></summary>
+<summary><b>Can I see the implementation of the package after integration?</b></summary>
 
-To install ZeroX on your Linux system:
-- Download the application from the provided link.
-- Open the downloaded setup file.
-- Follow the on-screen instructions to complete the installation in your preferred directory.
-- Once installation is complete, ZeroX will be ready for use.
+Yes! ZeroX offers a live demo feature, allowing you to see the package integration in action after it's added to your Flutter project. You can view it directly on your chosen platform (Web, Desktop, or Mobile) for instant feedback on how the package works.
 </details>
 
 <details>
-<summary><b>Do you use AI to implement the package inside the Flutter project?</b></summary>
+<summary><b>What is the rollback feature?</b></summary>
 
-Yes, we use ChatGPT AI to assist in implementing packages within your Flutter project. The AI analyzes your project structure and requirements, then generates tailored code for the package integration. This helps streamline the setup and ensures the package is implemented seamlessly within your Flutter project, saving time and reducing potential errors.
+The rollback feature allows you to undo the integration of a package if you no longer need it or if you want to make changes.
 </details>
 
 <details>
-<summary><b>How can I update ZeroX?</b></summary>
+<summary><b>How can I add my own Flutter package to ZeroX?</b></summary>
 
-To update ZeroX:
-- Open the application, and go to "Settings" > "Check for Updates."
-- If an update is available, follow the prompts to download and install the latest version.
+In the pro version of ZeroX, you can upload your own Flutter packages to the platform, making them available for other developers to use and integrate with a single click.
+</details>
+
+<details>
+<summary><b>Do I need to manually configure anything after integrating a package?</b></summary>
+
+ZeroX automatically generates the necessary code for the integrated package and adds it to your project. In most cases, no further configuration is needed, making the process seamless.
+</details>
+
+<details>
+<summary><b>How can I add my own Flutter package to ZeroX?</b></summary>
+
+In the pro version of ZeroX, you can upload your own Flutter packages to the platform, making them available for other developers to use and integrate with a single click.
 </details>
