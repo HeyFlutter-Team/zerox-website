@@ -5,13 +5,13 @@ sidebar_position: 1
 # Integrate Package
 
 
-#### 1. **Launch ZeroX**
+### **Launch ZeroX**
 
 Open the ZeroX application and log in using your credentials. Once logged in, you’ll be directed to the **Dashboard**.
 
 ----------
 
-#### 2. **Search for a Package**
+### **Search for a Package**
 
 1.  Navigate to the **Search Bar** at the top of the Dashboard.
 2.  Enter the package name or relevant keywords.
@@ -25,7 +25,7 @@ Open the ZeroX application and log in using your credentials. Once logged in, yo
 
 ----------
 
-#### 3. **Review Package Details**
+### **Review Package Details**
 
 Once you’ve selected a package, review the following information:
 
@@ -37,7 +37,7 @@ Once you’ve selected a package, review the following information:
 
 ----------
 
-#### 4. **Select Your Flutter Project**
+### **Select Your Flutter Project**
 
 1. Click the **Select Project** button.
 2. Choose the active Flutter project where the package will be integrated.
@@ -50,7 +50,7 @@ Once you’ve selected a package, review the following information:
 
 ----------
 
-#### 6. **Provide Pre-requirements (If Applicable)**
+### **Provide Pre-requirements (If Applicable)**
 
 Certain packages may require additional configuration before integration. Example:
 
@@ -63,7 +63,7 @@ Certain packages may require additional configuration before integration. Exampl
 
 ----------
 
-#### 7. **Generate and Integrate the Package**
+### **Generate and Integrate the Package**
 
 1.  Click the **Generate** button to begin the integration.
 2.  ZeroX will:
@@ -77,9 +77,9 @@ Certain packages may require additional configuration before integration. Exampl
 
 ----------
 
-### Testing the Integration
+## Testing the Integration
 
-#### **Run the Project**
+### **Run the Project**
 
 -   Open your IDE and run the project using the `flutter run` command or through the IDE’s run options.
 -   Verify that the package is working as expected in the selected environment.
