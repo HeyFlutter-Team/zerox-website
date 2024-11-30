@@ -19,9 +19,9 @@ After installing ZeroX on your system, follow these steps to get started:
 
 1. **Create an Account:** Getting started with ZeroX is easy and flexible. You can choose from three simple methods to create your account:
 
-    - **Sign Up with Email:** Sign up by providing your email address, name, and a secure password. Once your email is verified, you'll be all set to start using the platform!
+    - **Sign Up with Email:** Sign up by providing your email address, name, and a secure password. Once your email is verified, you'll be all set to start using the platform.
 
-    - **Log in with Google:** Sign in quickly using your Google credentials, making it easy to access your account without the hassle of remembering an extra password.
+    - **Sign in with Google:** Sign in quickly using your Google credentials, making it easy to access your account without the hassle of remembering an extra password.
 
     - **Sign in with Apple:** Sign in with your Apple ID for a quick, secure, and privacy-focused experience, keeping your personal information protected. 
 
@@ -42,9 +42,6 @@ After installing ZeroX on your system, follow these steps to get started:
         - **Platform Compatibility:** Details on which platforms (iOS, Android, web, etc.) the package works with.
         - **Community Ratings and Reviews:** Feedback from other developers to help you assess the package's reliability and performance.
 
-    With all this information, you’ll be ready to confidently integrate the package into your project and improve its functionality.
-
-
     ![Sample Image](./img/sample-gif.gif)
 
 3. **Select Your Flutter Project:** Choose the best way to select your Flutter project and integrate the package easily:
@@ -57,20 +54,17 @@ After installing ZeroX on your system, follow these steps to get started:
 
     ![Sample Image](./img/sample-gif.gif)
 
-4. **Select Your Device:** Select the device or platform where you'd like to test the package integration. Based on your project needs, you can choose from the following options:
+4. **Select Your Device:** Pick the platform where you want to test the package integration. You can choose from these options:
 
-    - **Browser**: Test the package in a live web environment using popular browsers like Chrome, Safari, Edge, and more.
-    - **Windows**: Select this option to test the package integration on a Windows desktop application, ensuring compatibility and functionality on the platform.
-    - **macOS**: If you're on macOS, select this option to test the package on a macOS desktop application.
-    - **Linux**: For Linux users, choose this option to test the integration on a Linux desktop applicatio
-    - **Real Devices**: Select a physical iOS or Android device to test the package on a real device.
-    - **Emulator/Simulator**: Select an emulator or simulator to test the package on a virtual device, providing a faster and more efficient way to test and debug.
+    - **Browser**: Run live tests directly in web browsers like Chrome, Safari, Edge, and more.
+    - **Real Devices**: Use an actual iOS or Android device to test in a real-world scenario.
+    - **Emulator/Simulator**: Test on a virtual device—use an emulator for Android or a simulator for iOS—for quick and efficient debugging.
 
-    This step ensures the package is tested in the right environment, helping you confirm its functionality and compatibility across various platforms.
+    This step helps you validate the package's functionality and compatibility across different environments.
 
     ![Sample Image](./img/sample-gif.gif)
 
-5. **Check Pre-requirements:** Before implementing any package, you might be asked to provide some necessary details. For example, if you’re adding an **Authentication** package, we’ll need to know what fields you want on the Sign-Up and Sign-In pages, such as name, email, password, and any other details you need from users. This helps make sure the package fits your project correctly. If there are any other specific details required for the package, you’ll be asked to provide them before moving forward."
+5. **Customize Your Package:** Provide the necessary details based on the package you want to integrate to ensure it fits your project perfectly.
 
     ![Sample Image](./img/sample-gif.gif)
 
