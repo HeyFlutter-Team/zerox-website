@@ -45,14 +45,47 @@ After installing ZeroX on your system, follow these steps to get started:
     ![Sample Image](./img/sample-gif.gif)
 
 3. **Select Your Flutter Project:** Choose the best way to select your Flutter project and integrate the package easily:
-    - **Drag and Drop:** Simply drag and drop the project folder into the upload area.
-    - **Choose Folder:** Click **Choose Folder** to manually browse your system and select the project folder.
-    - **Use Recent Projects:** Quickly access previously opened projects by selecting one from the **Recent Projects** list.
-    - **Import from an IDE:** Easily import your projects directly from your development environment. To select your preferred IDE—whether it's **VS Code**, **Android Studio**, or **IntelliJ**—simply click the settings icon for quick setup.
 
-    **Note**: Ensure your selected project is properly configured before adding the package to avoid any issues during the integration process.
+<ul class="no-bullets">
+<li>
+<details>
+<summary><b>Drag and Drop</b></summary>
 
-    ![Sample Image](./img/sample-gif.gif)
+Simply drag and drop the project folder into the upload area.
+
+![Sample Image](./img/sample-gif.gif)
+</details>
+</li>
+<li>
+<details>
+<summary><b>Choose Folder</b></summary>
+
+Click **Choose Folder** to manually browse your system and select the project folder.
+
+![Sample Image](./img/sample-gif.gif)
+</details>
+</li>
+<li>
+<details>
+<summary><b>Use Recent Projects</b></summary>
+
+Quickly access previously opened projects by selecting one from the **Recent Projects** list.
+
+![Sample Image](./img/sample-gif.gif)
+</details>
+</li>
+<li>
+<details>
+<summary><b>Import from an IDE</b></summary>
+
+Easily import your projects directly from your development environment. To select your preferred IDE—whether it's **VS Code**, **Android Studio**, or **IntelliJ**—simply click the settings icon for quick setup.
+
+![Sample Image](./img/sample-gif.gif)
+</details>
+</li>
+</ul>
+
+**Note**: Ensure your selected project is properly configured before adding the package to avoid any issues during the integration process.
 
 4. **Select Your Device:** Pick the platform where you want to test the package integration. You can choose from these options:
 
