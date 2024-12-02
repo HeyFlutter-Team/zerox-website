@@ -53,10 +53,11 @@ const config = {
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'ZeroX',
+        title: 'ZeroX doc',
         logo: {
           alt: 'ZeroX Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_light.png',
+          srcDark: 'img/logo_dark.png',
         },
         items: [
           {
@@ -67,7 +68,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'dark', // Ensure the footer remains in dark mode
         links: [
           {
             title: 'Docs',
