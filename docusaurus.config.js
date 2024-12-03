@@ -53,7 +53,7 @@ const config = {
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'ZeroX doc',
+        title: 'ZeroX Docs',
         logo: {
           alt: 'ZeroX Logo',
           src: 'img/logo_light.png',
