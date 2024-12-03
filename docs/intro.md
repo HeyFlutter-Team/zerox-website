@@ -13,7 +13,7 @@ slug: /
   <div class="row">
     <!-- First Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/introduction/why_zerox" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/introduction/why_zerox" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Why ZeroX?</h3>
         </div>
@@ -24,7 +24,7 @@ slug: /
     </div>
     <!-- Second Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/introduction/getting_started" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/introduction/getting_started" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Get Started with ZeroX</h3>
         </div>
@@ -35,7 +35,7 @@ slug: /
     </div>
       <!-- Third Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/packages/rollback-package" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/introduction/quick_start" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Quickstart</h3>
         </div>
@@ -53,7 +53,7 @@ slug: /
   <div class="row">
     <!-- First Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/packages/integrate-package" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/packages/integrate-package" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Integrate Package</h3>
         </div>
@@ -64,7 +64,7 @@ slug: /
     </div>
     <!-- Second Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/packages/rollback-package" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/packages/rollback-package" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Rollback Package</h3>
         </div>
@@ -75,7 +75,7 @@ slug: /
     </div>
       <!-- Third Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/for-developers/why-to-contribute" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/for-developers/why-to-contribute" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Why to contribute?</h3>
         </div>
@@ -86,7 +86,7 @@ slug: /
     </div>
     <!-- Forth Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/for-developers/develop-package" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/for-developers/develop-package" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Develop Package</h3>
         </div>
@@ -97,7 +97,7 @@ slug: /
     </div>
     <!-- Fifth Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/packages/rollback-package" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/packages/rollback-package" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>Deploy Package</h3>
         </div>
@@ -108,7 +108,7 @@ slug: /
     </div>
       <!-- sixth Box -->
     <div class="col col--4">
-      <a href="/zerox-website/docs/for-developers/api-reference" class="card shadow--md margin-bottom--lg">
+      <a href="/zerox-website/for-developers/api-reference" class="card shadow--md margin-bottom--lg">
         <div class="card__header">
           <h3>API Reference</h3>
         </div>

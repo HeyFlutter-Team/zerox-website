@@ -61,8 +61,8 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: '/zerox-website/for-developers/api-reference',
+            label: 'API-Reference',
             position: 'right',
           },
         ],
