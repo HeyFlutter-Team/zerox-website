@@ -6,6 +6,15 @@ sidebar_position: 4
 
 Let's translate `docs/intro.md` to French.
 
+import ApiDoc from '@site/src/components/ApiDoc';
+
+# API Documentation
+
+<ApiDoc 
+  url="https://us-central1-codex-platform-ad379.cloudfunctions.net/swagger"
+  paths={['/auth/login']}
+/>
+
 ## Configure i18n
 
 Modify `docusaurus.config.js` to add support for the `fr` locale:
