@@ -6,14 +6,14 @@ sidebar_position: 3
 
 Welcome to the **ZeroX Quick Start Guide!** This guide is designed for Flutter developers who are eager to quickly integrate Flutter packages into their projects with ease. In this tutorial, you will learn how to use ZeroX to seamlessly add packages, generate code, and ensure everything is set up perfectly with just one click.
 
-### Video Overview
+## Video Overview
 
 Watch this video to see how easily ZeroX lets you integrate any package into your Flutter project with just one click.
 
 <div style={{ position : 'relative', paddingBottom : '56.25%', height : '0' }}><iframe style={{ position : 'absolute', top : '0', left : '0', width : '100%', height : '100%' }} width="560" height="315" src="https://www.youtube-nocookie.com/embed/F7WKovEFdnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 ---
 
-# How to Use ZeroX
+## How to Use ZeroX
 
 After installing ZeroX on your system, follow these steps to get started:
 
