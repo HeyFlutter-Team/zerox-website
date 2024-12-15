@@ -11,7 +11,7 @@ Below, you’ll find answers to the most frequently asked questions about ZeroX.
 
 ZeroX is a desktop app that helps developers easily add Flutter packages to their projects with just one click. It works on Windows, macOS, and Linux, automating the integration, code generation, and rollback processes to make Flutter development faster and simpler.
 
-- Learn more on the **[Overview](/zerox-website/docs/intro)**
+- Learn more on the **[Overview](/zerox-website)**
 </details>
 
 <details>
@@ -29,7 +29,7 @@ ZeroX works on Windows, macOS, and Linux, so developers can use it on any of the
 
 ZeroX lets you easily search for and find any Flutter package available on **[pub.dev](https://pub.dev/)**. Once you've selected a package, it automatically adds it to your project and generates the necessary code, eliminating the need for manual integration and configuration.
 
-- Learn more on the **[Quickstart](/docs/introduction/quick_start)**
+- Learn more on the **[Quickstart](/introduction/quick_start)**
 </details>
 
 <details>
@@ -43,7 +43,7 @@ Yes! ZeroX offers a live demo feature, allowing you to see the package integrati
 
 The rollback feature allows you to undo the integration of a package if you no longer need it or if you want to make changes.
 
-- Learn more on the **[Rollback Package](/docs/packages/rollback-package)**
+- Learn more on the **[Rollback Package](/packages/rollback-package)**
 </details>
 
 <details>
@@ -51,7 +51,7 @@ The rollback feature allows you to undo the integration of a package if you no l
 
 In the pro version of ZeroX, you can upload your own Flutter packages to the platform, making them available for other developers to use and integrate with a single click.
 
-- Learn more on the **[Develop Package](/docs/packages/develop-package)**
+- Learn more on the **[Develop Package](/for-developers/develop-package)**
 </details>
 
 <details>
