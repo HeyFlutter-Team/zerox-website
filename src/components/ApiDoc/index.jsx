@@ -25,16 +25,7 @@ const SwaggerUI = ({ url }) => {
         window.ui = SwaggerUIBundle({
           url: url,
           dom_id: '#swagger-ui',
-          deepLinking: true,
-          presets: [
-            SwaggerUIBundle.presets.apis,
-            SwaggerUIStandalonePreset
-          ],
-          plugins: [
-            SwaggerUIBundle.plugins.DownloadUrl
-          ],
           layout: "BaseLayout",
-          defaultModelsExpandDepth: -1
         });
       };
     };
@@ -49,7 +40,7 @@ const SwaggerUI = ({ url }) => {
 
   return (
     <div className="swagger-section">
-      <div id="swagger-ui"></div>
+      <div id="swagger-ui"></div>     
       <style>
         {`
           .swagger-section {
@@ -57,6 +48,24 @@ const SwaggerUI = ({ url }) => {
             padding: 20px;
             border: 1px solid var(--ifm-color-emphasis-300);
             border-radius: var(--ifm-border-radius);
+          }
+
+          .information-container {
+          display: none;
+          }
+
+          /* Default light theme styles */
+          .scheme-container {
+              background-color: #ffffff;
+              color: #000000;
+              border: 1px solid #cccccc;
+          }
+
+          /* Dark theme styles */
+          .data-theme .scheme-container {
+              background-color: #1e1e1e;
+              color: #ffffff;
+              border: 1px solid #444444;
           }
 
           /* Override Swagger UI styles to match Docusaurus theme */
