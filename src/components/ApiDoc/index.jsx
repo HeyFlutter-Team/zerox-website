@@ -49,7 +49,7 @@ const SwaggerUI = ({ url }) => {
             border: 1px solid var(--ifm-color-emphasis-300);
             border-radius: var(--ifm-border-radius);
           }
-
+          section.models.is-open,
           .information-container {
           display: none;
           }
@@ -60,17 +60,15 @@ const SwaggerUI = ({ url }) => {
               color: #000000;
               border: 1px solid #cccccc;
           }
-
-          /* Dark theme styles */
-          .data-theme .scheme-container {
-              background-color: #1e1e1e;
-              color: #ffffff;
-              border: 1px solid #444444;
-          }
+          
 
           /* Override Swagger UI styles to match Docusaurus theme */
           .swagger-ui {
             font-family: var(--ifm-font-family-base);
+          }
+
+          .swagger-ui .section .models .is-open {
+            display: none;
           }
 
           .swagger-ui .opblock-tag {
@@ -83,14 +81,76 @@ const SwaggerUI = ({ url }) => {
             color: var(--ifm-color-content);
           }
 
+
+          .swagger-ui table thead tr td, 
+          .swagger-ui table thead tr th,
+          .swagger-ui table tbody tr td:first-of-type,
+          .swagger-ui table tbody tr td {
+            padding: 12px 10px;
+          }
+
           /* Adjust colors for dark mode compatibility */
-          html[data-theme='dark'] .swagger-ui,
-          html[data-theme='dark'] .swagger-ui .opblock-tag,
-          html[data-theme='dark'] .swagger-ui .opblock .opblock-summary-operation-id,
-          html[data-theme='dark'] .swagger-ui .opblock .opblock-summary-path,
-          html[data-theme='dark'] .swagger-ui .opblock .opblock-summary-description {
+          html[data-theme='dark'] .swagger-ui {
+            /* General text color adjustments */
             color: var(--ifm-color-content);
           }
+
+          html[data-theme='dark'] .swagger-ui {
+            /* Grouped child selectors for consistent text color */
+            label,
+            .response-col_status,
+            .tab li,
+            .prop-format,
+            .parameter__name,
+            .parameter__type,
+            .parameter__in,
+            table thead td,
+            table thead th,
+            .opblock-description-wrapper p,
+            .opblock-external-docs-wrapper p,
+            .opblock-title_normal p,
+            .opblock-control-arrow,
+            .opblock-tag small,
+            .scheme-container .schemes > .schemes-server-container > label,
+            .opblock .opblock-section-header h4,
+            .btn,
+            .opblock .opblock-section-header > label {
+              color:#eeeaea;
+            }
+
+            /* Operation block summaries */
+            .opblock-tag,
+            .opblock .opblock-summary-operation-id,
+            .opblock .opblock-summary-path,
+            .opblock .opblock-summary-description {
+              color: var(--ifm-color-content);
+            }
+
+  
+            /* Dropdowns and section headers, Inputs for email, file, password, search, and text*/
+            select,
+            .opblock .opblock-section-header,
+            input[disabled],
+            select[disabled], 
+            textarea[disabled],
+            input[type='email'],
+            input[type='password'],
+            input[type='search'],
+            input[type='text'],
+            input[type='file'] {
+              background-color: #1e1e1e;
+              color: #ffffff;
+            }
+          }
+
+          /* Scheme container adjustments */
+          html[data-theme='dark'] .scheme-container,
+          html[data-theme='dark'] .scheme-container .scheme-server-container {
+            background-color: #1e1e1e;
+            color: var(--ifm-color-content);
+            border: 1px solid #444444;
+          }
+
         `}
       </style>
     </div>
